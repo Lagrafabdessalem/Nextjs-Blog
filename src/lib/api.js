@@ -55,7 +55,7 @@ export function getPosts(){
                 return {
                    ...data,
                     slug,
-                    permalink: `/posts/webdevelopment/${slug}`,
+                    permalink: `/posts/web3/${slug}`,
                     image: `/${slug}.png`
                 }
             }
@@ -81,7 +81,7 @@ export function getPosts(){
                     return {
                        ...data,
                         slug,
-                        permalink: `/posts/webdevelopment/${slug}`,
+                        permalink: `/posts/career/${slug}`,
                         image: `/${slug}.png`
                     }
                 }
